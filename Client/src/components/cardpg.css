@@ -1,0 +1,63 @@
+.pglist {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  /* margin-top: 12px; */
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+}
+.pglist-img-style{
+    height: 200px;
+    width: 200px    ;
+}
+.pglist-img-style:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    transition: .5s;
+    animation: ease-in;
+}
+.pglist-detail-price{
+    display: flex;
+    margin-left: 12px;
+    font-size: x-large;
+    color: rgb(143, 47, 41);
+    flex-direction: row;
+    border-bottom:1px solid #b4aeae;
+}
+.pglist-detail-price h3{
+    letter-spacing: 1px;
+}
+.pglist-detail-price-span{
+    margin-top: 6px;
+    margin-left: 4px;
+    color: #b4aeae;
+}
+.pglist-detail-price-food{
+    color: black;
+    border: 18px solid white;
+    background-color: #b4aeae;
+    font-size: small;
+}
+.pglist-detail-name{
+    margin-left: 12px;
+    padding-bottom: 12px;
+    border-bottom:1px solid #b4aeae;
+}
+.pglist-detail-college{
+    margin-left: 12px;
+    border-bottom: 1px solid #b4aeae;
+    padding-bottom: 12px;
+}
+.pglist-detail-expolre{
+    margin-top: 12px;
+    /* margin-left: 12px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pglist-detail-address{
+    margin-left: 12px;
+}

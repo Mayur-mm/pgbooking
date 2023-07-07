@@ -1,0 +1,34 @@
+.login-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .login-overlay.visible {
+    display: block;
+  }
+  .login-overlay.hidden {
+    display: none;
+  }
+  
+  .signUp{
+    color: black;
+    text-transform: none;
+    text-decoration:underline;
+    font-size: 20px;
+  }
+  .Or{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .loginnewuser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
